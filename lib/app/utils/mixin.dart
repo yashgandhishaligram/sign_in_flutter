@@ -1,0 +1,2 @@
+
+enum LOGIN { GOOGLE, FACEBOOK, APPLE }

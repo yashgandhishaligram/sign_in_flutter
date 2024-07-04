@@ -1,0 +1,31 @@
+name: sign_in_flutter
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get_cli: ^1.8.1
+  get: 4.6.6
+  google_sign_in: ^6.2.1
+  firebase_auth: ^4.17.8
+  firebase_core: ^2.27.0
+  get_storage: ^2.1.1
+  flutter_login_facebook: ^2.0.0
+  sign_in_with_apple: ^5.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
